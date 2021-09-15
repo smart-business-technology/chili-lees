@@ -20,16 +20,16 @@
                 </xpath>
             </field>
         </record>
-        <record model="ir.ui.view" id="branch_hr_employee_search_inherit">
-            <field name="name">hr.employee.filter</field>
-            <field name="model">hr.employee</field>
-            <field name="inherit_id" ref="hr.view_employee_filter"/>
-            <field name="arch" type="xml">
-                <xpath expr="//field[@name='department_id']" position="after">
-                    <field name="branch_id"/>
-                </xpath>
+<!--        <record model="ir.ui.view" id="branch_hr_employee_search_inherit">-->
+<!--            <field name="name">hr.employee.filter</field>-->
+<!--            <field name="model">hr.employee</field>-->
+<!--            <field name="inherit_id" ref="hr.view_employee_filter"/>-->
+<!--            <field name="arch" type="xml">-->
+<!--                <xpath expr="//field[@name='department_id']" position="after">-->
+<!--                    <field name="branch_id"/>-->
+<!--                </xpath>-->
 
-            </field>
-        </record>
+<!--            </field>-->
+<!--        </record>-->
     </data>
 </odoo>
